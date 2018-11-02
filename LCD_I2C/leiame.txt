@@ -1,0 +1,4 @@
+Programa e biblioteca LiquidCrystal_I2C
+Para controlar esse módulo I2C, utilize a biblioteca LiquidCrystal_I2C, disponível nesse link. Descompacte o arquivo ZIP e  renomeie a pasta LiquidCrystal para LiquidCrystalI2C, copiando-a para a pasta  LIBRARIES da IDE do seu Arduino. Renomear a pasta evita que você tenha conflitos com a biblioteca LiquidCrystal que já vem embutida na IDE.
+
+Os comandos para controle do display são praticamente os mesmos da biblioteca  LiquidCrystal que utilizamos normalmente, com comandos como lcd.begin(), lcd.print()  e lcd.setCursor(). Na biblioteca I2C, o comando lcd.setBacklight() liga (HIGH) ou desliga (LOW) a luz de fundo do display.
